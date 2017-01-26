@@ -1,4 +1,15 @@
-@extends('layouts.app')
+@extends('layout')
+
+@section('header')
+    <style>
+        body {
+            background-color: #f5f8fa !important;
+        }
+        .alert {
+            margin-bottom: -10px;
+        }
+    </style>
+@endsection
 
 @section('content')
 <div class="container">
@@ -14,7 +25,7 @@
                             <label for="name" class="col-md-4 control-label">Name</label>
 
                             <div class="col-md-6">
-                                <input  id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" required autofocus>
+                                <input disabled  id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" required autofocus>
 
                                 @if ($errors->has('name'))
                                     <span class="help-block">
@@ -28,7 +39,7 @@
                             <label for="email" class="col-md-4 control-label">E-Mail Address</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required>
+                                <input disabled id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required>
 
                                 @if ($errors->has('email'))
                                     <span class="help-block">
@@ -42,7 +53,7 @@
                             <label for="password" class="col-md-4 control-label">Password</label>
 
                             <div class="col-md-6">
-                                <input id="password" type="password" class="form-control" name="password" required>
+                                <input disabled id="password" type="password" class="form-control" name="password" required>
 
                                 @if ($errors->has('password'))
                                     <span class="help-block">
@@ -56,15 +67,23 @@
                             <label for="password-confirm" class="col-md-4 control-label">Confirm Password</label>
 
                             <div class="col-md-6">
-                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
+                                <input disabled id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
                             </div>
                         </div>
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
-                                <button type="submit" class="btn btn-primary" disabled>
+                                <button disabled type="submit" class="btn btn-primary" >
                                     Register
                                 </button>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-6 col-md-offset-4">
+                                <div class="alert alert-danger">
+                                    Registrations will be enabled when application enters production!
+                                </div>
                             </div>
                         </div>
                     </form>

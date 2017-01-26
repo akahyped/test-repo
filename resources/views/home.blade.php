@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layout')
 
 @section('content')
 <div class="container">
@@ -8,14 +8,14 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    The application's core functionality will go here!<br>
+                    The application's core functionality/dashboard will go here!<br>
                 </div>
             </div>
             <div class="panel panel-default">
                 <div class="panel-heading">Admin Panel</div>
 
                 <div class="panel-body">
-                    <a href="/admin/">This admin panel</a> is meant for the webmaster(s) of the site/app.
+                    <a href="/admin/" target="_blank">This Admin panel</a> is a place for the webmasters to manage the meta-data of their app/site.
                 </div>
             </div>
         </div>
