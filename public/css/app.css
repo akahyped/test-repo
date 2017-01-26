@@ -7756,7 +7756,7 @@ html, body {
   transition: .2s;
 }
 
-.links > a:hover {
+a:hover {
   color: orange;
 }
 

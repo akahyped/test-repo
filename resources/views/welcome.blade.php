@@ -12,6 +12,21 @@
         body  {
             background-color: #0E101D;
         }
+        .links > a {
+          color: #fff;
+          padding: 0 25px;
+          font-size: 12px;
+          font-weight: 600;
+          letter-spacing: .1rem;
+          text-decoration: none;
+          text-transform: uppercase;
+          -webkit-transition: .2s;
+          transition: .2s;
+        }
+
+        a:hover {
+          color: orange;
+        }
     </style>
 </head>
 <body> 
@@ -26,10 +41,6 @@
                 @endif
             </div>
         @endif
-
-        <div class="top-left logo-img">
-            
-        </div>
 
         <div class="content">
             <div class="title m-b-md">

@@ -70,10 +70,11 @@ html, body {
     text-decoration: none;
     text-transform: uppercase;
     transition: .2s;
-    &:hover {
+}
+
+a:hover {
         color: orange;
     }
-}
 
 .m-b-md {
     margin-bottom: 30px;
