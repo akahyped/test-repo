@@ -1,0 +1,84 @@
+@import "variables";
+
+
+body {
+    background-color: #0E101D;
+}
+
+a:hover {
+    color: orange;
+}
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+    @extend .user-select;
+}
+
+.user-select {
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none;         
+    -ms-user-select: none; 
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.top-left {
+    position: absolute;
+    left: 10px;
+    top: 18px;
+}
+
+.logo {
+    width: 985px;
+    @extend .user-select;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 74px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: default;
+}
+
+.links > a {
+    color: #fff;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: .2s;
+    transition: .2s;
+    @extend .user-select;
+}
+
+a:hover {
+    color: orange;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}

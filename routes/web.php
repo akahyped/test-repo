@@ -23,3 +23,11 @@ Route::group(['prefix' => 'admin'], function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::group(['domain' => '{app}.constructly.io'], function () {
+    Route::group(['middleware' => 'auth'], function () {
+        Route::get('/test', function () {
+            dd('hit');
+        });
+    });
+});

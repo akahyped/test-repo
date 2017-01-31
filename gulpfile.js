@@ -6,7 +6,8 @@ require('laravel-elixir-livereload');
 elixir((mix) => {
 
     mix.sass('app.scss')
-       .webpack('app.js');
+        .sass('home.scss')
+        .webpack('app.js');
     mix.livereload();
     
 });

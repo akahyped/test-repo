@@ -3,31 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     <title>Constructly</title>
 
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
-    <style>
-        body  {
-            background-color: #0E101D;
-        }
-        .links > a {
-          color: #fff;
-          padding: 0 25px;
-          font-size: 12px;
-          font-weight: 600;
-          letter-spacing: .1rem;
-          text-decoration: none;
-          text-transform: uppercase;
-          -webkit-transition: .2s;
-          transition: .2s;
-        }
-
-        a:hover {
-          color: orange;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/home.css') }}">
+    
 </head>
 <body> 
     <div class="flex-center position-ref full-height">
