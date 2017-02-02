@@ -1,17 +1,13 @@
 @extends('layout')
 
 @section('header')
-    <style>
-        body {
-            background-color: #f5f8fa !important;
-        }
-        .alert {
-            margin-bottom: -10px;
-        }
-    </style>
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 @endsection
 
 @section('content')
+
+@include('partials/nav')
+
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">

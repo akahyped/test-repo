@@ -5,8 +5,8 @@ require('laravel-elixir-livereload');
 
 elixir((mix) => {
 
-    mix.sass('app.scss')
-        .sass('home.scss')
+    mix.sass('style.scss')
+        .sass('overwrite.scss')
         .webpack('app.js');
     mix.livereload();
     

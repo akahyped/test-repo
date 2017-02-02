@@ -1,6 +1,13 @@
 @extends('layout')
 
+@section('header')
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+@endsection
+
 @section('content')
+
+@include('partials/nav')
+
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">

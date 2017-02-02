@@ -1,0 +1,14 @@
+.centerComponent {
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.centerPanel {
+  width: 750px;
+  height: auto;
+}
+
+/*# sourceMappingURL=overwrite.css.map */
