@@ -97,8 +97,12 @@
 
           <div class="home-wrapper text-center">
 
-            <h2 class="animated fadeInDown wow" data-wow-delay=".1s"><br><br><br><br><br><br><img class="main--logo" src="images/transparent-logo.png"><br><br>
-                A simple platform for managing your construction business
+            <h2 class="animated fadeInDown wow" data-wow-delay=".1s">
+            <br><br>
+            <br><br>
+            <br><br>
+            <img class="main--logo img-responsive" src="images/transparent-logo.png"><br><br>
+                A platform for managing commmercial construction businesses
             </h2>
             <p class="animated fadeInDown wow text-muted" data-wow-delay=".2s">
                 Constructly.io offers a modular, scalable web solution that aims to reduce the repetition and <br>monotony of everyday tasks in the commercial construction industry.
@@ -534,19 +538,5 @@
 
   <!-- Back to top -->
   <a href="#" class="back-to-top"> <i class="zmdi zmdi-chevron-up"> </i> </a>
-
-
-
-    <!-- js placed at the end of the document so the pages load faster -->
-    <script src="js/app.js"></script>
-    <!-- Jquery easing -->                                                      
-    <script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
-    <script src="js/wow.min.js"></script>
-
-    <!--sticky header-->
-    <script type="text/javascript" src="js/jquery.sticky.js"></script>
-        
-    <!--common script for all pages-->
-    <script src="js/jquery.app.js"></script>
     
 @endsection

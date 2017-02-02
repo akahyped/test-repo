@@ -38,5 +38,15 @@
             document.write('<script src="//localhost:35729/livereload.js?snipver=1" type="text/javascript"><\/script>')
         </script> 
     @endif
+        <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/app.js"></script>
+    <script src="js/jquery.app.js"></script>
+
+    <!-- Jquery easing -->                                                      
+    <script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!--sticky header-->
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
 </body>
 </html>

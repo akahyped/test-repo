@@ -74,10 +74,10 @@ function scaleBannerVideoSize(element){
 $(window).scroll(function() {
     var height = $(window).scrollTop();
     console.log(height);
-    if(height  > 900) {
+    if(height  > 150) {
         $('.navbar-custom').addClass('navbar--active');
     }
-    if(height < 700) {
+    if(height < 400) {
         $('.navbar-custom').removeClass('navbar--active');
     }
 });
